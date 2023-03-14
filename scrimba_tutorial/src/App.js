@@ -1,13 +1,9 @@
-import logo from './science.png';
+import Header from './Header';
 
 function App() {
   return (
     <div className="App">
-      <header>
-        <nav>
-          <img src={logo} alt="React Logo" width="40px" />
-        </nav>
-      </header>
+      <Header />
       <h1>This is Component</h1>
       <ol>
         <li>
