@@ -9,7 +9,14 @@ function Header() {
               <img src={logo} alt="React Logo" width="40px" />
             </li>
             <li>
-              <h2 style={{ margin: '2px', padding: '2px', display: 'flex' }}>
+              <h2
+                style={{
+                  margin: '2px',
+                  padding: '2px',
+                  display: 'flex',
+                  color: '#61DBFB',
+                }}
+              >
                 ReactFacts
               </h2>
             </li>
