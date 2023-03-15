@@ -1,13 +1,14 @@
 function Page() {
   return (
     <div className="page-div">
-      <h1>This is Component</h1>
-      <ol>
-        <li>
-          It's a popular library, so I'll be able to fit in with the cool kids!
-        </li>
-        <li>I'm more likely to get a job as a developer if I know React</li>
-      </ol>
+      <h1>Fun Facts About React</h1>
+      <ul>
+        <li>Was first released in 2013</li>
+        <li>Was originally created by Jordan Walke</li>
+        <li>Has well over 100K stars on GitHub</li>
+        <li>Is maintained by facebook</li>
+        <li>Powers thousands of enterprise apps, including mobile apps</li>
+      </ul>
     </div>
   );
 }

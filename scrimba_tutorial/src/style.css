@@ -13,6 +13,16 @@
 
 }
 
+.page-div > ul{
+  
+
+}
+.page-div > ul > li{
+  list-style: none;
+  background: url('./verify.png') left center no-repeat; 
+  padding-left: 40px; 
+}
+
 .footer {
   background-color: rgb(206, 10, 245);
   padding: 10px;
