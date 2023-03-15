@@ -1,7 +1,25 @@
-.nav-list{
-  float: right;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
+.nav-bar {
+  background-color: rgb(4, 77, 104);
+  padding: 10px;
+  margin: 10px;
+  border:10px solid rgb(255, 255, 255);
+}
+
+.page-div {
+  background-color: blueviolet;
+  padding: 10px;
+  margin: 10px;
+  border:10px solid rgb(255, 255, 255);
+
+}
+
+.footer {
+  background-color: rgb(206, 10, 245);
+  padding: 10px;
+  margin: 10px;
+  border:10px solid rgb(255, 255, 255);
+  position:absolute;
+left:0;
+bottom:0;
+right:0;
 }

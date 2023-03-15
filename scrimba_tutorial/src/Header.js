@@ -1,19 +1,22 @@
 import logo from './science.png';
-import './style.css';
 function Header() {
   return (
-    <>
+    <div className="nav-bar">
       <header>
         <nav>
-          <img src={logo} alt="React Logo" width="40px" />
+          <ul>
+            <li>
+              <img src={logo} alt="React Logo" width="40px" />
+            </li>
+          </ul>
+          <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+          </ul>
         </nav>
-        <ul className="nav-list">
-          <li>Price</li>
-          <li>Contact</li>
-          <li>About</li>
-        </ul>
       </header>
-    </>
+    </div>
   );
 }
 
